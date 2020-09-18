@@ -8,6 +8,7 @@ defmodule UnicodeEmojiFlag.MixProject do
       elixir: ">= 1.0.0",
       start_permanent: Mix.env() == :prod,
       deps: deps(),
+      name: "UnicodeEmojiFlag",
       source_url: "https://github.com/libra-ventures/unicode_emoji_flag"
     ]
   end
@@ -21,7 +22,7 @@ defmodule UnicodeEmojiFlag.MixProject do
 
   defp deps do
     [
-      {:ex_doc, "~> 0.22", only: :dev, runtime: false}
+      {:ex_doc, "~> 0.22", only: :dev, runtime: false},
     ]
   end
 end
