@@ -31,3 +31,12 @@ end
   `UnicodeEmojiFlag.html` takes two characters-long country code and produces an HTML-ready hexadecimal representation of its flag.
 
   For example in your Phoenix template `<%= raw(UnicodeEmojiFlag.html("tw")) %>`
+
+### Console
+
+  `UnicodeEmojiFlag.console` takes two characters-long country code and produces a Unicode sequence ready to be printed to a terminal
+
+## Acknowledgments
+
+Thanks to folks at Elixir Slack helping out with nailing down printing Unicode sequences to a terminal - @micahbf,
+@di4na, Jaxon Axelson and @lostkobrakai
