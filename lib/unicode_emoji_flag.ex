@@ -1,11 +1,11 @@
 defmodule UnicodeEmojiFlag do
   @moduledoc """
-  UnicodeEmojiFlag is an Elixir adaptation of [Country Code 🔡 ➡️ Emoji Flag 🇬🇧](https://github.com/peterkahl/country-code-to-emoji-flag).
-  It was tested on 19.09.2020 with all officially assigned  ISO 3166-1 alpha-2 codes and showed 100% coverage 🎯.
+  Convert country codes to emoji flags 🔡 ➡️ 🇹🇼.
+  For the list of available country codes please refer to https://en.wikipedia.org/wiki/Regional_indicator_symbol#Emoji_flag_sequences
   """
 
   @doc """
-  Takes two characters-long country code and produces an HTML-ready hexadecimal representation of its flag.
+  Takes two or more characters-long country code and produces an HTML-ready hexadecimal representation of its flag.
 
   For example in your Phoenix template `<%= raw(UnicodeEmojiFlag.html("tw")) %>`
   """

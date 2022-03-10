@@ -1,12 +1,12 @@
-# UnicodeEmojiFlag
+# UnicodeEmojiFlag 🇹🇼
 
 [![License](https://img.shields.io/badge/license-0bsd-blue)](https://spdx.org/licenses/0BSD.html)
 [![Hex.pm](https://img.shields.io/hexpm/v/unicode_emoji_flag.svg)](https://hex.pm/packages/unicode_emoji_flag)
 [![Build Docs](https://img.shields.io/badge/hexdocs-release-blue.svg)](https://hexdocs.pm/unicode_emoji_flag/UnicodeEmojiFlag.html)
 
-**This is Elixir adaptation of the splendid [Country Code 🔡 ➡️ Emoji Flag 🇬🇧](https://github.com/peterkahl/country-code-to-emoji-flag)**
+**Inspired by splendid [Country Code 🔡 ➡️ Emoji Flag 🇬🇧](https://github.com/peterkahl/country-code-to-emoji-flag) library**
 
-I let myself quote a part of its similarly excellent README
+I let myself quote a part of their equally excellent README
 
 > ## ♻️Green Technology♻️
 > An image file equivalent to an emoji symbol may be tens, hundreds of kilobytes in size, while an emoji symbol is only several bytes. That's a bandwidth saving of around 10,000 times. If you use emoji instead of image files, you reduce your carbon footprint.
